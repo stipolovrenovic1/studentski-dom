@@ -1,0 +1,815 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Id.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Id.HeaderText" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <metadata name="RoomNumber.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RoomNumber.HeaderText" xml:space="preserve">
+    <value>RoomNumber</value>
+  </data>
+  <metadata name="Floor.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Floor.HeaderText" xml:space="preserve">
+    <value>Floor</value>
+  </data>
+  <metadata name="StudentNumber.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="StudentNumber.HeaderText" xml:space="preserve">
+    <value>StudentNumber</value>
+  </data>
+  <metadata name="MaxStudents.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="MaxStudents.HeaderText" xml:space="preserve">
+    <value>MaxStudents</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dataGridViewRooms.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, -4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dataGridViewRooms.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="dataGridViewRooms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>916, 562</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dataGridViewRooms.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewRooms.Name" xml:space="preserve">
+    <value>dataGridViewRooms</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewRooms.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewRooms.Parent" xml:space="preserve">
+    <value>tabPageRooms</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewRooms.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageRooms.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPageRooms.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="tabPageRooms.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="tabPageRooms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>912, 559</value>
+  </data>
+  <data name="tabPageRooms.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageRooms.Text" xml:space="preserve">
+    <value>Sobe</value>
+  </data>
+  <data name="&gt;&gt;tabPageRooms.Name" xml:space="preserve">
+    <value>tabPageRooms</value>
+  </data>
+  <data name="&gt;&gt;tabPageRooms.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageRooms.Parent" xml:space="preserve">
+    <value>tabControlStudentskiDom</value>
+  </data>
+  <data name="&gt;&gt;tabPageRooms.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="StudentId.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="StudentId.HeaderText" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <metadata name="FirstName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="FirstName.HeaderText" xml:space="preserve">
+    <value>FirstName</value>
+  </data>
+  <metadata name="LastName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="LastName.HeaderText" xml:space="preserve">
+    <value>LastName</value>
+  </data>
+  <metadata name="OIB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="OIB.HeaderText" xml:space="preserve">
+    <value>OIB</value>
+  </data>
+  <metadata name="Course.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Course.HeaderText" xml:space="preserve">
+    <value>Course</value>
+  </data>
+  <metadata name="Year.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Year.HeaderText" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <metadata name="RoomId.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RoomId.HeaderText" xml:space="preserve">
+    <value>RoomId</value>
+  </data>
+  <data name="dataGridViewStudents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, -5</value>
+  </data>
+  <data name="dataGridViewStudents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="dataGridViewStudents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>916, 564</value>
+  </data>
+  <data name="dataGridViewStudents.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewStudents.Name" xml:space="preserve">
+    <value>dataGridViewStudents</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewStudents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewStudents.Parent" xml:space="preserve">
+    <value>tabPageStudents</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewStudents.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageStudents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPageStudents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="tabPageStudents.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="tabPageStudents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>912, 559</value>
+  </data>
+  <data name="tabPageStudents.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPageStudents.Text" xml:space="preserve">
+    <value>Studenti</value>
+  </data>
+  <data name="&gt;&gt;tabPageStudents.Name" xml:space="preserve">
+    <value>tabPageStudents</value>
+  </data>
+  <data name="&gt;&gt;tabPageStudents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageStudents.Parent" xml:space="preserve">
+    <value>tabControlStudentskiDom</value>
+  </data>
+  <data name="&gt;&gt;tabPageStudents.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="RoomlessId.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RoomlessId.HeaderText" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <metadata name="RoomlessFirstName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RoomlessFirstName.HeaderText" xml:space="preserve">
+    <value>FirstName</value>
+  </data>
+  <metadata name="RoomlessLastName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RoomlessLastName.HeaderText" xml:space="preserve">
+    <value>LastName</value>
+  </data>
+  <metadata name="RoomlessOIB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RoomlessOIB.HeaderText" xml:space="preserve">
+    <value>OIB</value>
+  </data>
+  <metadata name="RoomlessCourse.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RoomlessCourse.HeaderText" xml:space="preserve">
+    <value>Course</value>
+  </data>
+  <metadata name="RoomlessYear.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RoomlessYear.HeaderText" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="dataGridViewRoomlessStudents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, -5</value>
+  </data>
+  <data name="dataGridViewRoomlessStudents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="dataGridViewRoomlessStudents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>916, 568</value>
+  </data>
+  <data name="dataGridViewRoomlessStudents.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewRoomlessStudents.Name" xml:space="preserve">
+    <value>dataGridViewRoomlessStudents</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewRoomlessStudents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewRoomlessStudents.Parent" xml:space="preserve">
+    <value>tabPageRoomlessStudents</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewRoomlessStudents.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageRoomlessStudents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPageRoomlessStudents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="tabPageRoomlessStudents.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="tabPageRoomlessStudents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>912, 559</value>
+  </data>
+  <data name="tabPageRoomlessStudents.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPageRoomlessStudents.Text" xml:space="preserve">
+    <value>Studenti bez sobe</value>
+  </data>
+  <data name="&gt;&gt;tabPageRoomlessStudents.Name" xml:space="preserve">
+    <value>tabPageRoomlessStudents</value>
+  </data>
+  <data name="&gt;&gt;tabPageRoomlessStudents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageRoomlessStudents.Parent" xml:space="preserve">
+    <value>tabControlStudentskiDom</value>
+  </data>
+  <data name="&gt;&gt;tabPageRoomlessStudents.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabControlStudentskiDom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 60</value>
+  </data>
+  <data name="tabControlStudentskiDom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="tabControlStudentskiDom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>920, 588</value>
+  </data>
+  <data name="tabControlStudentskiDom.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabControlStudentskiDom.Name" xml:space="preserve">
+    <value>tabControlStudentskiDom</value>
+  </data>
+  <data name="&gt;&gt;tabControlStudentskiDom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControlStudentskiDom.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;tabControlStudentskiDom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="noviRačunToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 26</value>
+  </data>
+  <data name="noviRačunToolStripMenuItem.Text" xml:space="preserve">
+    <value>Novi račun</value>
+  </data>
+  <data name="izbrišiRačunToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 26</value>
+  </data>
+  <data name="izbrišiRačunToolStripMenuItem.Text" xml:space="preserve">
+    <value>Izbriši račun</value>
+  </data>
+  <data name="izlazToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 26</value>
+  </data>
+  <data name="izlazToolStripMenuItem.Text" xml:space="preserve">
+    <value>Izlaz</value>
+  </data>
+  <data name="izbornikToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Bold</value>
+  </data>
+  <data name="izbornikToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 22</value>
+  </data>
+  <data name="izbornikToolStripMenuItem.Text" xml:space="preserve">
+    <value>Izbornik</value>
+  </data>
+  <data name="oProgramuToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Bold</value>
+  </data>
+  <data name="oProgramuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="oProgramuToolStripMenuItem.Text" xml:space="preserve">
+    <value>O programu</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 2, 0, 2</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1398, 26</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>152, 17</value>
+  </metadata>
+  <data name="novaSobaToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Bold</value>
+  </data>
+  <data name="novaSobaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="novaSobaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nova soba</value>
+  </data>
+  <data name="noviStudentToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Bold</value>
+  </data>
+  <data name="noviStudentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="noviStudentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Novi student</value>
+  </data>
+  <data name="izlazToolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Bold</value>
+  </data>
+  <data name="izlazToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="izlazToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Osvježi</value>
+  </data>
+  <data name="izlazToolStripMenuItem2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Bold</value>
+  </data>
+  <data name="izlazToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="izlazToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Izlaz</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 92</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJ
+        TUUH5AEYEBAoip28LwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAthSURBVHhe
+        7daxbVBBFETR3wTQCIIebCFqBbk9MCviSSbbkc+VTvKizXYeSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIk
+        SZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIk
+        SZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIk
+        SZIkSZIkSZIkSfrgvTPv9biptyO9E4B7xCNbDAAAWvHIFgMAgFY8ssUAAKAVj2wxAABoxSNbDAAAWvHI
+        FgMAgFY8ssUAAKAVj2wxAABoxSNbDAAAWvHIFgMAgFY8ssUAAKAVj2wxAABoxSNbDAAAWvHIFgMAgFY8
+        ssUAAKAVj2wxAABoxSNbDAAAWvHIFgMAgFY8ssUAAKAVj2wxAABoxSNbDAAAWvHIFgMAgFY8ssUAAKAV
+        j2wxAABoxSNbDAAAWvHIFgMAgFY8ssUAAKAVj2wxAABoxSNbDAAAWvHIFgMAgFY8ssUAAKAVj2wxAABo
+        xSNbDAAAWvHIFgMAgFY8ssUAAKAVj2wxAABoxSNbDAAAWvHIFgMAgFY8ssUAAKAVj2wxAABoxSNbDAAA
+        WvHIFgMAgFY8ssUAAKAVj2wxAABoxSNbDAAAWvHIFgMAgFY8ssUAAKAVj2wxAABoxSNbDAAAWvHIFgMA
+        gFY8ssUAAKAVj2wxAABoxSNbDAAAWvHIFgMAgFY8ssUAAKAVj2wxAABoxSNbDAAAWvHIFgMAgFY8ssUA
+        AKAVj2wxAABoxSNbDAAAWvHIFgMAgFY8ssUAAKAVj2wxAABoxSNbDAAAWvHIFgMAgFY8ssUAAKAVj2wx
+        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
+        AIBWPLLFAACgFY9sMQAAaMUjWwwAAFrxyBYDAIBWPLLFAACgFY9sMQAAaMUjWwwAAFrxyBYDAIBWPLLF
+        AACgFY9sMQAAaMUjWwwAAFrxyBYDAIBWPLLFAACgFY9sMQAAaMUjWwwAAFrxyBYDAIBWPLLFAACgFY9s
+        MQAAaMUjWwwAAFrxyBYDAIBWPLLFAACgFY9sMQAAaMUjWwwAAFrxyBYDAIBWPLLFAACgFY9sMQAAaMUj
+        WwwAAFrxyBYDAIBWPLLFAACgFY9sMQAAaMUjWwwAAFrxyBYDAIBWPLLFAACgFY9sMQAAaMUjWwwAAFrx
+        yBYDAIBWPLLFAACgFY9sMQAAaMUjWwwAAFrxyBYDAIBWPLLFAACgFY9sMQAAaMUjWwwAAFrxyBYDAIBW
+        PLLFAACgFY9sMQAAaMUjWwwAAFrxyBYDAIBWPLLFAACgFY9sMQAAaMUjWwwAAFrxyBYDAIBWPLLFAACg
+        FY9sMQAAaMUjWwwAAFrxyBYDAIBWPLLFAACgFY9sMQAAaD0/mffluKnvR3onAPeQJEmSJEmSJEmSJEmS
+        JEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmS
+        JEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmS
+        JEmSJEmSJEmSJEmSJEmSJEmSJEmSpA/a8/wDm0SqcNR1e+UAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 148</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 325</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 12</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1911, 852</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1398, 685</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Studentski Dom</value>
+  </data>
+  <data name="&gt;&gt;Id.Name" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="&gt;&gt;Id.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RoomNumber.Name" xml:space="preserve">
+    <value>RoomNumber</value>
+  </data>
+  <data name="&gt;&gt;RoomNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor.Name" xml:space="preserve">
+    <value>Floor</value>
+  </data>
+  <data name="&gt;&gt;Floor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StudentNumber.Name" xml:space="preserve">
+    <value>StudentNumber</value>
+  </data>
+  <data name="&gt;&gt;StudentNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MaxStudents.Name" xml:space="preserve">
+    <value>MaxStudents</value>
+  </data>
+  <data name="&gt;&gt;MaxStudents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StudentId.Name" xml:space="preserve">
+    <value>StudentId</value>
+  </data>
+  <data name="&gt;&gt;StudentId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FirstName.Name" xml:space="preserve">
+    <value>FirstName</value>
+  </data>
+  <data name="&gt;&gt;FirstName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LastName.Name" xml:space="preserve">
+    <value>LastName</value>
+  </data>
+  <data name="&gt;&gt;LastName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OIB.Name" xml:space="preserve">
+    <value>OIB</value>
+  </data>
+  <data name="&gt;&gt;OIB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Course.Name" xml:space="preserve">
+    <value>Course</value>
+  </data>
+  <data name="&gt;&gt;Course.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Year.Name" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="&gt;&gt;Year.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RoomId.Name" xml:space="preserve">
+    <value>RoomId</value>
+  </data>
+  <data name="&gt;&gt;RoomId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RoomlessId.Name" xml:space="preserve">
+    <value>RoomlessId</value>
+  </data>
+  <data name="&gt;&gt;RoomlessId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RoomlessFirstName.Name" xml:space="preserve">
+    <value>RoomlessFirstName</value>
+  </data>
+  <data name="&gt;&gt;RoomlessFirstName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RoomlessLastName.Name" xml:space="preserve">
+    <value>RoomlessLastName</value>
+  </data>
+  <data name="&gt;&gt;RoomlessLastName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RoomlessOIB.Name" xml:space="preserve">
+    <value>RoomlessOIB</value>
+  </data>
+  <data name="&gt;&gt;RoomlessOIB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RoomlessCourse.Name" xml:space="preserve">
+    <value>RoomlessCourse</value>
+  </data>
+  <data name="&gt;&gt;RoomlessCourse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RoomlessYear.Name" xml:space="preserve">
+    <value>RoomlessYear</value>
+  </data>
+  <data name="&gt;&gt;RoomlessYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;izbornikToolStripMenuItem.Name" xml:space="preserve">
+    <value>izbornikToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;izbornikToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;noviRačunToolStripMenuItem.Name" xml:space="preserve">
+    <value>noviRačunToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;noviRačunToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;izbrišiRačunToolStripMenuItem.Name" xml:space="preserve">
+    <value>izbrišiRačunToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;izbrišiRačunToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;izlazToolStripMenuItem.Name" xml:space="preserve">
+    <value>izlazToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;izlazToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;oProgramuToolStripMenuItem.Name" xml:space="preserve">
+    <value>oProgramuToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;oProgramuToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;novaSobaToolStripMenuItem.Name" xml:space="preserve">
+    <value>novaSobaToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;novaSobaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;noviStudentToolStripMenuItem.Name" xml:space="preserve">
+    <value>noviStudentToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;noviStudentToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;izlazToolStripMenuItem1.Name" xml:space="preserve">
+    <value>izlazToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;izlazToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;izlazToolStripMenuItem2.Name" xml:space="preserve">
+    <value>izlazToolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;izlazToolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormStudentskiDom</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

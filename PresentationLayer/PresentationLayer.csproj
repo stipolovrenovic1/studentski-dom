@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1AA9FA0-773C-4946-BB4E-AF30E5139C56}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PresentationLayer</RootNamespace>
+    <AssemblyName>PresentationLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddStudent.Designer.cs">
+      <DependentUpon>FormAddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCreateAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCreateAccount.Designer.cs">
+      <DependentUpon>FormCreateAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCreateRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCreateRoom.Designer.cs">
+      <DependentUpon>FormCreateRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDeleteAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeleteAccount.Designer.cs">
+      <DependentUpon>FormDeleteAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditRoom.Designer.cs">
+      <DependentUpon>FormEditRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditRoomlessStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditRoomlessStudent.Designer.cs">
+      <DependentUpon>FormEditRoomlessStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditStudent.Designer.cs">
+      <DependentUpon>FormEditStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMoveInRoomless.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMoveInRoomless.Designer.cs">
+      <DependentUpon>FormMoveInRoomless.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewStudent.Designer.cs">
+      <DependentUpon>FormNewStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRemoveStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRemoveStudent.Designer.cs">
+      <DependentUpon>FormRemoveStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRoomStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRoomStudents.Designer.cs">
+      <DependentUpon>FormRoomStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStudentskiDom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStudentskiDom.Designer.cs">
+      <DependentUpon>FormStudentskiDom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTransferStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTransferStudent.Designer.cs">
+      <DependentUpon>FormTransferStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTransferStudentRooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTransferStudentRooms.Designer.cs">
+      <DependentUpon>FormTransferStudentRooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAddStudent.resx">
+      <DependentUpon>FormAddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCreateAccount.resx">
+      <DependentUpon>FormCreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCreateRoom.resx">
+      <DependentUpon>FormCreateRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDeleteAccount.resx">
+      <DependentUpon>FormDeleteAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditRoom.resx">
+      <DependentUpon>FormEditRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditRoomlessStudent.resx">
+      <DependentUpon>FormEditRoomlessStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditStudent.resx">
+      <DependentUpon>FormEditStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMoveInRoomless.resx">
+      <DependentUpon>FormMoveInRoomless.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewStudent.resx">
+      <DependentUpon>FormNewStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRemoveStudent.resx">
+      <DependentUpon>FormRemoveStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRoomStudents.resx">
+      <DependentUpon>FormRoomStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStudentskiDom.aa.resx">
+      <DependentUpon>FormStudentskiDom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStudentskiDom.resx">
+      <DependentUpon>FormStudentskiDom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTransferStudent.resx">
+      <DependentUpon>FormTransferStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTransferStudentRooms.resx">
+      <DependentUpon>FormTransferStudentRooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{7d804962-00e8-477d-9abc-b44c93301b63}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

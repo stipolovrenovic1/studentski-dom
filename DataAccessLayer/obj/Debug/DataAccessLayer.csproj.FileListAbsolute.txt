@@ -1,0 +1,12 @@
+E:\Faks\PNO-KV\StudentskiDomSustav\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+E:\Faks\PNO-KV\StudentskiDomSustav\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+E:\Faks\PNO-KV\StudentskiDomSustav\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+E:\Faks\PNO-KV\StudentskiDomSustav\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\Faks\PNO-KV\StudentskiDomSustav\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+E:\Faks\PNO-KV\StudentskiDomSustav\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\student\Desktop\StipoLovrenovic\StudentskiDomSustav\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\student\Desktop\StipoLovrenovic\StudentskiDomSustav\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\student\Desktop\StipoLovrenovic\StudentskiDomSustav\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\student\Desktop\StipoLovrenovic\StudentskiDomSustav\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\StipoLovrenovic\StudentskiDomSustav\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\student\Desktop\StipoLovrenovic\StudentskiDomSustav\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
